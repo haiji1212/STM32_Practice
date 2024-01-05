@@ -27,3 +27,12 @@
       - Delay	//延时函数模块
     - User   //用户存放main函数和mcu应用配置函数
       - main  //功能实现
+- 3-4 按键控制LED
+  - 用两个按键分别控制对应LED的亮灭切换
+    - System
+      - Delay	//延时函数模块
+    - Hardware
+      - LED	//LED模块，包括LED初始化、点亮LED、熄灭LED、反转LED亮灭状态的函数
+      - Key    //Key模块，包括Key初始化、获取Key状态的函数
+    - User   //用户存放main函数和mcu应用配置函数
+      - main  //功能实现
