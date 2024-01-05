@@ -15,3 +15,9 @@
       - Delay	//延时函数模块
     - User   //用户存放main函数和mcu应用配置函数
       - main  //功能实现
+- 3-2 LED流水灯
+  - 实现LED流水灯
+    - System
+      - Delay	//延时函数模块
+    - User   //用户存放main函数和mcu应用配置函数
+      - main  //功能实现
