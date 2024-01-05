@@ -9,3 +9,9 @@
   - 简单地实现点亮LED灯
     - User	//用户存放main函数和mcu应用配置函数
       - main	//功能实现
+- 3-1 LED闪烁
+  - 实现LED的亮灭交替闪烁
+    - System
+      - Delay	//延时函数模块
+    - User   //用户存放main函数和mcu应用配置函数
+      - main  //功能实现
