@@ -21,3 +21,9 @@
       - Delay	//延时函数模块
     - User   //用户存放main函数和mcu应用配置函数
       - main  //功能实现
+- 3-3 蜂鸣器
+  - 驱动蜂鸣器
+    - System
+      - Delay	//延时函数模块
+    - User   //用户存放main函数和mcu应用配置函数
+      - main  //功能实现
