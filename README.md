@@ -36,3 +36,14 @@
       - Key    //Key模块，包括Key初始化、获取Key状态的函数
     - User   //用户存放main函数和mcu应用配置函数
       - main  //功能实现
+- 3-5 光敏传感器控制蜂鸣器
+  - 光线强度未达到阈值时，蜂鸣器发声；光线达到阈值时，蜂鸣器不发声。
+    - System
+      - Delay	//延时函数模块
+    - Hardware
+      - LED	//LED模块，包括LED初始化、点亮LED、熄灭LED、反转LED亮灭状态的函数
+      - Key    //Key模块，包括Key初始化、获取Key状态的函数
+      - Buzzer   //Buzzer模块，包括蜂鸣器初始化、蜂鸣器响/不响、反转蜂鸣器状态的函数
+      - LightSensor   //LightSensor模块，包括光敏传感器初始化、获取光敏传感器状态的函数
+    - User   //用户存放main函数和mcu应用配置函数
+      - main  //功能实现
