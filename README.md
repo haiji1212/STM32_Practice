@@ -83,3 +83,17 @@
       - Encoder  //Encoder模块，包括相关IO和外部中断的初始化、计次、中断的函数
     - User   //用户存放main函数和mcu应用配置函数
       - main  //功能实现
+- 6-1 定时器定时中断
+  - TIM2内部定时，实现OLED显示屏显示数字每秒加1
+    - System
+      - Delay	//延时函数模块
+      - Timer   //定时器模块，包括Timer初始化、Timer中断的函数
+    - Hardware
+      - LED	//LED模块，包括LED初始化、点亮LED、熄灭LED、反转LED亮灭状态的函数
+      - Key    //Key模块，包括Key初始化、获取Key状态的函数
+      - OLED  //OLED模块，包括OLED初始化、OLED显示的函数
+      - OLED_Font  //OLED字模库
+      - CountSensor  //CountSensor模块，包括相关IO和外部中断的初始化、计次、中断的函数
+      - Encoder  //Encoder模块，包括相关IO和外部中断的初始化、计次、中断的函数
+    - User   //用户存放main函数和mcu应用配置函数
+      - main  //功能实现
