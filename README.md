@@ -191,3 +191,17 @@
       - IC  //IC模块，包括IC初始化、获取输入捕获频率、获取输入捕获占空比的函数
     - User   //用户存放main函数和mcu应用配置函数
       - main  //功能实现
+- 6-8 编码器接口测速
+  - 实现编码器正反转计数
+    - System
+      - Delay	//延时函数模块
+      - Timer   //定时器模块，包括Timer初始化、Timer中断的函数
+    - Hardware
+      - LED	//LED模块，包括LED初始化、点亮LED、熄灭LED、反转LED亮灭状态的函数
+      - Key    //Key模块，包括Key初始化、获取Key状态的函数
+      - OLED  //OLED模块，包括OLED初始化、OLED显示的函数
+      - OLED_Font  //OLED字模库
+      - CountSensor  //CountSensor模块，包括相关IO和外部中断的初始化、计次、中断的函数
+      - Encoder  //Encoder模块，包括Encoder初始化、获取编码器的增量值的函数
+    - User   //用户存放main函数和mcu应用配置函数
+      - main  //功能实现
