@@ -111,3 +111,18 @@
       - Encoder  //Encoder模块，包括相关IO和外部中断的初始化、计次、中断的函数
     - User   //用户存放main函数和mcu应用配置函数
       - main  //功能实现
+- 6-3 PWM驱动LED呼吸灯
+  - 在该实验中，ARR = 100 - 1，PSC = 720 - 1，则每隔 10 us，CNT 加一；当 CNT 从 0 加到 99，触发中断（即每隔 1 ms 触发一次中断）。在输出比较中，初始化定义高电平输出有效，即当 CNT == CCR 时，会输出高电平。因此当 CCR 由 0 依次递增到 100 时，LED（接至A0） 逐渐变亮；当 CRR 由 100 依次递减到 0 时，LED 逐渐变暗。
+    - System
+      - Delay	//延时函数模块
+      - Timer   //定时器模块，包括Timer初始化、Timer中断的函数
+    - Hardware
+      - LED	//LED模块，包括LED初始化、点亮LED、熄灭LED、反转LED亮灭状态的函数
+      - Key    //Key模块，包括Key初始化、获取Key状态的函数
+      - OLED  //OLED模块，包括OLED初始化、OLED显示的函数
+      - OLED_Font  //OLED字模库
+      - CountSensor  //CountSensor模块，包括相关IO和外部中断的初始化、计次、中断的函数
+      - Encoder  //Encoder模块，包括相关IO和外部中断的初始化、计次、中断的函数
+      - PWM  //PWM模块，包括PWM初始化、设置CRR的函数
+    - User   //用户存放main函数和mcu应用配置函数
+      - main  //功能实现
