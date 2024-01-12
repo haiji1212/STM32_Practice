@@ -253,3 +253,15 @@
       - AD  //AD模块，包括AD初始化的函数
     - User   //用户存放main函数和mcu应用配置函数
       - main  //功能实现
+- 9-1 串口发送
+  - 实现主板作为发送端向上位机发送数据的功能
+    - System
+      - Delay	//延时函数模块
+    - Hardware
+      - LED	//LED模块，包括LED初始化、点亮LED、熄灭LED、反转LED亮灭状态的函数
+      - Key    //Key模块，包括Key初始化、获取Key状态的函数
+      - OLED  //OLED模块，包括OLED初始化、OLED显示的函数
+      - OLED_Font  //OLED字模库
+      - Serial  //Serial模块，包括Serial初始化、串口发送一个字节数据、串口发送数组、串口发送字符串、串口发送数字、串口打印字符串的函数
+    - User   //用户存放main函数和mcu应用配置函数
+      - main  //功能实现
