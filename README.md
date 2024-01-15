@@ -301,3 +301,17 @@
       - Serial  //Serial模块，包括Serial初始化、串口发送一个字节数据、串口发送数组、串口发送字符串、串口发送数字、串口打印字符串、获取串口接收标志、获取串口接收数据、接收中断、发送封装包头包尾的数据包的函数
     - User   //用户存放main函数和mcu应用配置函数
       - main  //功能实现
+- 10-1 软件I2C读写MPU6050
+  - 通过软I2C实现MPU6050六轴数据的读取
+    - System
+      - Delay	//延时函数模块
+    - Hardware
+      - LED	//LED模块，包括LED初始化、点亮LED、熄灭LED、反转LED亮灭状态的函数
+      - Key    //Key模块，包括Key初始化、获取Key状态的函数
+      - OLED  //OLED模块，包括OLED初始化、OLED显示的函数
+      - OLED_Font  //OLED字模库
+      - MyI2C  //软I2C模块，包括软I2C初始化、软I2C终止、软I2C发送字节数据、软I2C接收数据、软I2C发送应答、软I2C接收应答的函数
+      - MPU6050  //MPU6050模块，包括MPU6050初始化、写寄存器、读寄存器、获取ID、获取六轴数据的函数
+      - MPU6050_Reg  //MPU6050寄存器封装库
+    - User   //用户存放main函数和mcu应用配置函数
+      - main  //功能实现
