@@ -328,3 +328,17 @@
       - MPU6050_Reg  //MPU6050寄存器封装库
     - User   //用户存放main函数和mcu应用配置函数
       - main  //功能实现
+- 11-1 软件SPI读写W25Q64
+  - 通过软SPI实现W25Q64的写入、擦除和读取数据
+    - System
+      - Delay	//延时函数模块
+    - Hardware
+      - LED	//LED模块，包括LED初始化、点亮LED、熄灭LED、反转LED亮灭状态的函数
+      - Key    //Key模块，包括Key初始化、获取Key状态的函数
+      - OLED  //OLED模块，包括OLED初始化、OLED显示的函数
+      - OLED_Font  //OLED字模库
+      - MySPI  //软SPI模块，包括软SPI初始化、软SPI起始、软SPI终止、软SPI交换数据的函数
+      - W25Q64  //W25Q64模块，包括初始化、读取ID、写使能、等待忙、页编程、扇区擦除、读取数据的函数
+      - W25Q64_Ins   //W25Q64指令封装库
+    - User   //用户存放main函数和mcu应用配置函数
+      - main  //功能实现
