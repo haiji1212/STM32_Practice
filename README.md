@@ -404,3 +404,15 @@
       - Serial  //Serial模块，包括Serial初始化、串口发送一个字节数据、串口发送数组、串口发送字符串、串口发送数字、串口打印字符串、获取串口接收标志、获取串口接收数据、接收中断的函数
     - User   //用户存放main函数和mcu应用配置函数
       - main  //功能实现
+- 13-3 停止模式+对射式红外传感器计次
+  - 等待外部中断触发唤醒，执行计次显示
+    - System
+      - Delay	//延时函数模块
+    - Hardware
+      - LED	//LED模块，包括LED初始化、点亮LED、熄灭LED、反转LED亮灭状态的函数
+      - Key    //Key模块，包括Key初始化、获取Key状态的函数
+      - OLED  //OLED模块，包括OLED初始化、OLED显示的函数
+      - OLED_Font  //OLED字模库
+      - CountSensor  //CountSensor模块，包括相关IO和外部中断的初始化、计次、中断的函数
+    - User   //用户存放main函数和mcu应用配置函数
+      - main  //功能实现
