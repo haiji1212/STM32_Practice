@@ -463,3 +463,14 @@
       - OLED_Font  //OLED字模库
     - User   //用户存放main函数和mcu应用配置函数
       - main  //功能实现
+- 15-2 读取芯片
+  - 读取并显示芯片内存和ID
+    - System
+      - Delay	//延时函数模块
+    - Hardware
+      - LED	//LED模块，包括LED初始化、点亮LED、熄灭LED、反转LED亮灭状态的函数
+      - Key    //Key模块，包括Key初始化、获取Key状态的函数
+      - OLED  //OLED模块，包括OLED初始化、OLED显示的函数
+      - OLED_Font  //OLED字模库
+    - User   //用户存放main函数和mcu应用配置函数
+      - main  //功能实现
